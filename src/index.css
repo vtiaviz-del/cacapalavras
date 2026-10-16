@@ -1,0 +1,4 @@
+/* Substitui o index.css do template do Vite (que centraliza o body e quebraria o layout) */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { margin: 0; min-height: 100%; }
+body { background: #fff; }
